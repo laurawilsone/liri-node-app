@@ -1,5 +1,5 @@
 
-console.log('this is loaded');
+//console.log('this is loaded');
 
 exports.twitter = {
     consumer_key: 'hcGbUFsEcky8uBK3bYfjEGi79',
@@ -13,5 +13,3 @@ exports.spotify = {
     secret: '6b86ee68a63247e2b412386493e8243b',
 };
 
-var spotify = new spotify(keys.spotify);
-var client = new Twitter(keys.twitter);
